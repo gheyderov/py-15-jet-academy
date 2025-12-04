@@ -5,3 +5,5 @@ from django.shortcuts import render
 def homepage(request):
     return render(request, 'index.html')
 
+def book(request):
+    return render(request, 'book.html')
